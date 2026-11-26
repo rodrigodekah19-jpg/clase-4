@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- Formularios -->
+     <h1>Registro</h1>
+     <form>
+    <div>
+    <!--  Label se usa para describir que debe ingresarse en en un campo -->
+    <label for="fullname">Nombre completo</label>
+    <input type="text" id="fullname">
+    </div>
+    <div>
+        <label for="email">Ingresa tu correo electronico</label>
+        <input type="email" id="email">
+    </div>
+    <div>
+        <label for="pais">Selecciona el pais</label>
+        <select id="pais">
+            
+             <option value="AR">Argentina</option>
+        <option value="BR">Brasil</option>
+        <option value="CO">Colombia</option>
+        <option value="CL">Chile</option>
+        <option value="VNZ">Venezuela</option>
+        <option value="0" selected disabled>No seleccionado</option>
+        </select>
+        
+    </div>
+   <button type="submit" aria-setsize="40px">Enviar</button>
+     </form>
+</body>
+</html>
